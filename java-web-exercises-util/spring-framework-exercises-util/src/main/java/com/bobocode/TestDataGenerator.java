@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class TestDataGenerator {
-
     public Account generateAccount() {
         Fairy fairy = Fairy.create();
         Person person = fairy.person();
